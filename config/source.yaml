@@ -7,11 +7,18 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ntkernel/lantern/master/vmess_base64.txt
 
 # 网页模糊抓取
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
+# - type: web-fanqiangdang
+#   options:
+#     url: https://fanqiangdang.com/forum.php?mod=rss&fid=50&auth=0
+
 
 # tg频道抓取
 - type: tgchannel
@@ -20,6 +27,12 @@
     num: 200
 
 # 翻墙党论坛抓取
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-2-1.html
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-36-1.html
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
