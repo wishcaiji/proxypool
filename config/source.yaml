@@ -1,23 +1,152 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+    url: https://github.com/freefq/free
+- type: webfuzzsub
+  options:
+    url: https://github.com/oouxx/fqsub/blob/7f35b272888341f207acc10c92f1eb0be431e0e3/sub.list
+- type: webfuzzsub
+  options:
+    url: https://github.com/woytu/notes-vuepress/blob/757206d5c10d112d56a3c789d5a622d4bcfe6375/System/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F.md
+- type: webfuzzsub
+  options:
+    url: http://proxypool.turinglabs.net/
+- type: webfuzzsub
+  options:
+    url: https://github.com/doudoubinga/ceshi/blob/27cd627f3467bcd88ab4a92f0c44baabc53c7e73/trash/base64-sub
+- type: webfuzzsub
+  options:
+    url: https://attachments-cdn.shimo.im/KTVdWd7ipTJtGqaa.txt
 
 # 订阅链接
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: subscribe
+  options:
+    url: https://iwxf.netlify.app/
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SS.md
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+- type: subscribe
+  options:
+    url: https://cdn.jsdelivr.net/gh/fqnews/bnews@latest/vs/v2.txt
+
 
 # 网页模糊抓取
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
+- type: webfuzz
+  options:
+    url: https://github.com/freefq/free
+- type: webfuzz
+  options:
+    url: https://github.com/umelabs/node.umelabs.dev
+- type: webfuzz
+  options:
+    url: https://github.com/freefq/free
+- type: webfuzz
+  options:
+    url: https://github.com/iwxf/free-v2ray/blob/master/README.md
+- type: webfuzz
+  options:
+    url: https://github.com/hugetiny/awesome-vpn/blob/master/READMECN.md
+- type: webfuzz
+  options:
+    url: https://github.com/ruanfei/ShadowsocksRRShare/blob/master/vmess%E8%8A%82%E7%82%B9%EF%BC%88%E9%A1%B6%E9%83%A8%E6%9C%80%E6%96%B0).md
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/123/
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ss/ss.txt
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ssr/ssr.txt
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/README.md
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/52bp/52bp.github.io/master/freesite.html
 
 # tg频道抓取
 - type: tgchannel
   options:
     channel: ssrList
     num: 200
+- type: tgchannel
+  options:
+    channel: SSRSUB
+    num: 200
+- type: tgchannel
+  options:
+    channel: FreeSSRNode
+    num: 200
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200
+- type: tgchannel
+  options:
+    channel: SuperFastProxy
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrtool
+    num: 200
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+- type: tgchannel
+  options:
+    channel: jiedianfenxiang
+    num: 200
+- type: tgchannel
+  options:
+    channel: fanqiang666
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrtool_crack
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrshares
+    num: 200
+- type: tgchannel
+  options:
+    channel: gongyijichangfenxiang
+    num: 200
+- type: tgchannel
+  options:
+    channel: fanqiang666
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrtool_crack
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrv2taytgshare
+    num: 200
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+- type: tgchannel
+  options:
+    channel: VPNFolder
+    num: 200
+
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
