@@ -3,6 +3,10 @@
   options:
     url: https://github.com/freefq/free
 - type: webfuzzsub
+- type: webfuzzsub
+  options:
+    url: https://github.com/wishcaiji/sublist/blob/main/suburl
+- type: webfuzzsub
   options:
     url: https://github.com/oouxx/fqsub/blob/7f35b272888341f207acc10c92f1eb0be431e0e3/sub.list
 - type: webfuzzsub
@@ -17,7 +21,21 @@
 - type: webfuzzsub
   options:
     url: https://attachments-cdn.shimo.im/KTVdWd7ipTJtGqaa.txt
-
+- type: webfuzzsub
+  options:
+    url: https://uploader.shimo.im/f/w4fhn48OhKfxIcsA.txt?attname=tt.txt
+- type: webfuzzsub
+  options:
+    url: https://github.com/pojiezhiyuanjun/freev2
+- type: webfuzzsub
+  options:
+    url: https://github.com/Alex950808/proxypool038/blob/ef5c730a505ba9115f6be84f5df37b66264d66bc/config/source.yaml
+- type: webfuzzsub
+  options:
+    url: https://github.com/lin1986lin/test1/blob/684c35acbb348eb36a9b991a0f703f00abf59622/source.yaml
+- type: webfuzzsub
+  options:
+    url: https://github.com/zmike1993/hello-world/wiki/SSR%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%EF%BC%88%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89
 # 订阅链接
 - type: subscribe
   options:
@@ -25,9 +43,6 @@
 - type: subscribe
   options:
     url: https://iwxf.netlify.app/
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SS.md
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
@@ -42,7 +57,13 @@
     url: https://merlinblog.xyz/wiki/freess.html
 - type: webfuzz
   options:
+    url: https://lisondawang.tk/jiedianfenxiang.html
+- type: webfuzz
+  options:
     url: https://github.com/freefq/free
+- type: webfuzz
+  options:
+    url: https://github.com/JACKUSR2089/v2ray-subscribed
 - type: webfuzz
   options:
     url: https://github.com/umelabs/node.umelabs.dev
@@ -76,11 +97,40 @@
 - type: webfuzz
   options:
     url: https://raw.githubusercontent.com/52bp/52bp.github.io/master/freesite.html
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/123/
+- type: webfuzz
+  options:
+    url: https://github.com/dadonggu/donggu/wiki
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+- type: webfuzz
+  options:
+    url: https://xincmg.github.io/
+- type: webfuzz
+  options:
+    url: https://github.com/iwxf/free-v2ray/blob/073f18282f5075b2de6ae1773aa1ea8c5c6b5693/README.md
+- type: webfuzz
+  options:
+    url: https://www.facebook.com/groups/2371461312933872/?ref=share
+- type: webfuzz
+  options:
+    url: https://lanrenl.github.io/2020/06/03/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 
 # tg频道抓取
 - type: tgchannel
   options:
     channel: ssrList
+    num: 200
+- type: tgchannel
+  options:
+    channel: aifenxiang2020
+    num: 200
+- type: tgchannel
+  options:
+    channel: sharecentre
     num: 200
 - type: tgchannel
   options:
@@ -140,10 +190,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: freeshadowsock
-    num: 200
-- type: tgchannel
-  options:
     channel: VPNFolder
     num: 200
 
@@ -156,3 +202,4 @@
 # 某个网站抓取
 - type: web-freessrxyz
   options:
+    url: https://lightyearapp.life/zh/free-vpn
