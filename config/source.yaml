@@ -197,7 +197,19 @@
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
-    url: https://fanqiangdang.com/forum-48-1.html
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=50&auth=0
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=36&auth=0
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=2&auth=0
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=51&auth=0
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=48&auth=0
 
 # 某个网站抓取
 - type: web-freessrxyz
