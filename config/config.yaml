@@ -15,4 +15,8 @@ source-files:
   # use local file
   - ./config/source.yaml
   # use web file
-#  - https://example.com/config/source.yaml
+  - https://hub.tgbot.co/proxy/webfuzz.yaml
+  - https://hub.tgbot.co/proxy/tgchannel.yaml
+  - https://hub.tgbot.co/proxy/subscribe.yaml
+  - https://hub.tgbot.co/proxy/others.yaml
+  - https://hub.tgbot.co/proxy/clash.yaml
