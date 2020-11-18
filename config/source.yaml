@@ -49,6 +49,33 @@
 - type: subscribe
   options:
     url: https://cdn.jsdelivr.net/gh/fqnews/bnews@latest/vs/v2.txt
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/ssr/ssr.txt
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/vmess/vs.txt
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/clash/clash.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/clash/clashr.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/qx/qx.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/qx/q.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/loon/loon.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/sb/sb.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/ss/ss.txt
 
 
 # 网页模糊抓取
@@ -191,6 +218,10 @@
 - type: tgchannel
   options:
     channel: VPNFolder
+    num: 200
+- type: tgchannel
+  options:
+    channel: proxypools
     num: 200
 
 
