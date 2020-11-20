@@ -1,10 +1,6 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://github.com/freefq/free
-- type: webfuzzsub
-- type: webfuzzsub
-  options:
     url: https://github.com/wishcaiji/sublist/blob/main/suburl
 - type: webfuzzsub
   options:
@@ -85,12 +81,12 @@
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
+- type: webfuzzsub
+  options:
+    url: https://github.com/freefq/free
 - type: webfuzz
   options:
     url: https://lisondawang.tk/jiedianfenxiang.html
-- type: webfuzz
-  options:
-    url: https://github.com/freefq/free
 - type: webfuzz
   options:
     url: https://github.com/JACKUSR2089/v2ray-subscribed
